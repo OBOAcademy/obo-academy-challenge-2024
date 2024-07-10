@@ -1,0 +1,49 @@
+name: OBO Academy Challenge 2024
+description: We are organising a community challenge aimed at getting more people involved in open biomedical and biological ontology development. For details see https://github.com/OBOAcademy/obook/issues/508.
+title: Request for reviewing my submission ([ADD NAME HERE]) for the OBO Academy Challenge 2024
+labels: [ obo-challenge ]
+assignees: matentzn
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for your OBO Academy Community Challenge submission 2024.
+  - type: input
+    id: issue
+    attributes:
+      label: The issue you created
+      description: A URL to the issue you have created.
+    validations:
+      required: true
+  - type: input
+    id: pullrequest
+    attributes:
+      label: Pull request
+      description: A URL to the pull request you have opened.
+    validations:
+      required: true
+  - type: input
+    id: review
+    attributes:
+      label: Your review
+      description: A link to a pull request review you have submitted, e.g. `https://github.com/monarch-initiative/mondo/pull/7934#pullrequestreview-2164704545`.
+    validations:
+      required: false
+  - type: dropdown
+    id: submission_type
+    attributes:
+      label: Submission type
+      description: Indicate if you have performed a pull request review, or gotten your PR merged.
+      options:
+        - I have gotten my PR merged.
+        - I have reviewed a pull request and provided a link to my review above.
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional comments
+      description: |
+        Please provide any additional comments here.
+    validations:
+      required: false
