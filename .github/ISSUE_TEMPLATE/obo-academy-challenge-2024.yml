@@ -44,6 +44,6 @@ body:
     attributes:
       label: Additional comments
       description: |
-        Please provide any additional comments here.
+        Please provide any additional comments here. In particular, if you have gotten your PR merged and you used personal communications to affect this, you can add a comment on what you concretely did.
     validations:
       required: false
